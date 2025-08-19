@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <h1>Minhas Tarefas</h1>
+    <ul>
+        {% for tarefa in tarefas %}
+            <li>{{ tarefa.title }} - {% if tarefa.completed %} ✅ {% else %} ❌ {% endif %}</li>
+        {% empty %}
+            <li>Nenhuma tarefa encontrada</li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'add_tarefas' %}">Adicionar tarefa</a>
+</body>
+</html>
