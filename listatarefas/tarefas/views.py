@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from .models import Tarefas
 
 def lista_tarefas(request):
@@ -11,3 +11,9 @@ def add_tarefas(request):
         Tarefas.objects.create(title=title)
         return redirect('lista_tarefas')
     return render(request, 'tarefas/add_tarefas.html')
+
+
+def remover_tarefa(request, tarefa_id):
+    tarefa = get_object_or_404(Tarefas, id=tarefa_id)
+    tarefa.delete()
+    return redirect('lista_tarefas')
