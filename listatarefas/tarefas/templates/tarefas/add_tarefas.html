@@ -2,14 +2,25 @@
 <html>
 <head>
     <title>Adicionar Tarefa</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <h1>Adicionar nova tarefa</h1>
-    <form method="post">
+<body class="bg-light">
+
+<div class="container mt-5">
+    <h1 class="mb-4">Adicionar nova tarefa</h1>
+
+    <form method="post" class="mb-3">
         {% csrf_token %}
-        <input type="text" name="title" placeholder="Título da tarefa">
-        <button type="submit">Salvar</button>
+        <div class="mb-3">
+            <input type="text" name="title" class="form-control" placeholder="Título da tarefa" required>
+        </div>
+        <button type="submit" class="btn btn-success">Salvar</button>
+        <a href="{% url 'lista_tarefas' %}" class="btn btn-secondary">Voltar</a>
     </form>
-    <a href="{% url 'lista_tarefas' %}">Voltar</a>
+</div>
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
