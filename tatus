@@ -1,0 +1,92 @@
+[33mcommit eacd85b97bb21d71c436aaa20b88f22afcb47580[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mrodrigo[m[33m, [m[1;31morigin/rodrigo[m[33m)[m
+Author: rodrigo <24rodrigocurso@gmail.com>
+Date:   Wed Aug 20 07:11:42 2025 -0300
+
+    Adicionando o arquivo procfile
+
+[33mcommit ffbe12683dd3509a54c43aca83a46ce4375984ac[m
+Merge: e32b5d3 f178dcc
+Author: rodrigo <24rodrigocurso@gmail.com>
+Date:   Wed Aug 20 06:48:52 2025 -0300
+
+    Adicionando o botão editar tarefa
+
+[33mcommit e32b5d3608787a6c8dd735c0c2ec850db99a07ca[m
+Author: rodrigo <24rodrigocurso@gmail.com>
+Date:   Wed Aug 20 06:45:32 2025 -0300
+
+    Tentando fazer deoloy de uma aplicação django
+
+[33mcommit f178dcc4f508f5261870c6665c6706fde5d90a7b[m
+Merge: 073766a b120292
+Author: rodrigo <119341838+Rodrigo0024@users.noreply.github.com>
+Date:   Tue Aug 19 15:33:15 2025 -0300
+
+    Merge pull request #4 from Rodrigo0024/rodrigo
+    
+    Rodrigo
+
+[33mcommit b120292c4fa082791f1ac16f10b32a220e724bdb[m
+Author: rodrigo <24rodrigocurso@gmail.com>
+Date:   Tue Aug 19 15:31:13 2025 -0300
+
+    Adicionando o botão editar tarefa
+
+[33mcommit 271a6fc16ab5c363c855aae9aa746593e71282f1[m
+Merge: 48ca675 073766a
+Author: rodrigo <24rodrigocurso@gmail.com>
+Date:   Tue Aug 19 12:37:03 2025 -0300
+
+    Corrigindo bug
+
+[33mcommit 073766a38d3e40f0aa12b2626a63b2c9cba26276[m
+Merge: 6a2f8ec 6b247c4
+Author: rodrigo <119341838+Rodrigo0024@users.noreply.github.com>
+Date:   Tue Aug 19 12:06:07 2025 -0300
+
+    Merge pull request #3 from Rodrigo0024/rodrigo
+    
+    Rodrigo
+
+[33mcommit 6b247c42d7ad8ada3ba5722c42295afe7e650aae[m
+Merge: b94c038 6a2f8ec
+Author: rodrigo <119341838+Rodrigo0024@users.noreply.github.com>
+Date:   Tue Aug 19 12:04:18 2025 -0300
+
+    Merge pull request #2 from Rodrigo0024/main
+    
+    Merge pull request #1 from Rodrigo0024/rodrigo
+
+[33mcommit 48ca67531d27d6552d314133d968a7201caf94a7[m
+Merge: b94c038 6a2f8ec
+Author: rodrigo <24rodrigocurso@gmail.com>
+Date:   Tue Aug 19 12:02:32 2025 -0300
+
+    Adicionei a função remover
+
+[33mcommit b94c0387dd56d77048d7e700cbad67514de793b8[m
+Author: rodrigo <24rodrigocurso@gmail.com>
+Date:   Tue Aug 19 11:57:00 2025 -0300
+
+    Adicionei a função de remover a tarefa
+
+[33mcommit 6a2f8ec796f45182c9534de114aedf606e2a608e[m
+Merge: 2dc3252 baa3d3c
+Author: rodrigo <119341838+Rodrigo0024@users.noreply.github.com>
+Date:   Tue Aug 19 11:39:26 2025 -0300
+
+    Merge pull request #1 from Rodrigo0024/rodrigo
+    
+    Criando lista de tarefas
+
+[33mcommit baa3d3c1684f82f99977aafaa06fcc820236d4a7[m
+Author: rodrigo <24rodrigocurso@gmail.com>
+Date:   Tue Aug 19 11:32:46 2025 -0300
+
+    Criando lista de tarefas
+
+[33mcommit 2dc32524d7b7831362ab0e66edc3b8f6e9945fa2[m[33m ([m[1;32mmain[m[33m)[m
+Author: rodrigo <24rodrigocurso@gmail.com>
+Date:   Tue Aug 19 10:37:11 2025 -0300
+
+    first commit
